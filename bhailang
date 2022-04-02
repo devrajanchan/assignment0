@@ -1,0 +1,32 @@
+hi bhai 
+    bol bhai "Bol bhai tera pointer";
+    bhai ye hai pointer = -1 ;
+    jab tak bhai (pointer <=10)
+    {
+        agar bhai (pointer<0)
+        {
+            bol bhai "ye kaise kiya bhai.";
+        }
+         agar bhai (0<=pointer && pointer<5)
+        {
+            bol bhai "nalla.";
+        }
+        agar bhai (5<=pointer && pointer<8)
+        {
+            bol bhai "Sab thik ho jaega bhai.";
+        }
+        agar bhai (8<=pointer && pointer<10)
+        {
+            bol bhai "Shabhash bhai.";
+        }
+        agar bhai (pointer==10) 
+        {
+          bol bhai "Bhai bhai.";
+          bas kar bhai;
+        }
+        pointer+=1; 
+    }
+bye bhai
+ 
+        
+        
